@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowOverDesktop.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resource.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowOverDesktop.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Include Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="WindowOverDesktop.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c158b856-f597-4207-91f2-701b80dc7d07}</UniqueIdentifier>
+      <Extensions>*.c;*.cpp</Extensions>
+    </Filter>
+    <Filter Include="Include Files">
+      <UniqueIdentifier>{b52ddffe-9b74-477e-8a08-d02671835cac}</UniqueIdentifier>
+      <Extensions>*.h</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{d451a5b3-5517-4670-8b9a-c56a3626854c}</UniqueIdentifier>
+      <Extensions>*.rc;*.ico</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WindowOverDesktop.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
