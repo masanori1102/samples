@@ -210,12 +210,12 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 		}
 		break;
 
-    case WM_GETMINMAXINFO:
+	case WM_GETMINMAXINFO:
 		{
 			outputWindowSize( hWnd, "WM_GETMINMAXINFO" );
 			LPMINMAXINFO	lpmm = (LPMINMAXINFO)lParam;
-			lpmm->ptMinTrackSize.x = widthMax + 100;
-			lpmm->ptMinTrackSize.y = heightMax + 100;
+			lpmm->ptMaxTrackSize.x = widthMax + 100;
+			lpmm->ptMaxTrackSize.y = heightMax + 100;
 		}
 		break;
 
